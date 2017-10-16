@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/success.css">
+        <meta charset="utf-8">
+        <title>Success</title>
+    </head>
+    <body>
+        {{>upper}}
+        <h2>Thanks for signing the petition!</h2>
+        <img id="yourSig" src="{{signature}}">
+        <a href="/petition/success/signers" id="sigs"><h2>See all <u>{{number}} signatures.</u></h2></a>
+        <h3>Not happy with your signature? Try it again</h3>
+        <form method="post" action="/petition/delete">
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            <button type="submit" id="submit">Delete</button>
+        </form>
+    </body>
+    <script src="canvas.js"></script>
+</html>

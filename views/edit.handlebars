@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/edit.css">
+        <meta charset="utf-8">
+        <title>Edit Profile</title>
+    </head>
+    <body>
+        <div id="background">
+            <div id="division">
+                <img id="monkey" src="http://www.pngall.com/wp-content/uploads/2016/06/Monkey-Free-Download-PNG.png">
+                <img id="tiger" src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Animals-PNG/Tiger_PNG_Clipart_Picture.png?m=1377122400">
+                <div id="menubar">
+                    <div id="edit">
+                        <a href="/edit">Edit profile</a>
+                    </div>
+                    <div id="logout">
+                        <a href="/logout">Log out</a>
+                    </div>
+                </div>
+                <div id="title">
+                    <div id="ban">BAN</div> <img src="https://stjamesfriends.files.wordpress.com/2014/07/banner-circus.png">
+                </div>
+            </div>
+            <div id="container">
+                <div id="containerLogin">
+                    <h2 id="please">Edit your profile.</h2>
+                    {{Wrong}}
+
+                    <form method="post">
+                        <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                        <div class="inputs">
+                            <input id="fisrtname" name="firstname" type="text" placeholder="First Name" value="{{firstname}}" required>
+                        </div>
+                        <div class="inputs">
+                            <input id="lastname" name="lastname" type="text" placeholder="Last Name" value="{{lastname}}" required>
+                        </div>
+                        <div class="inputs">
+                            <input id="email" name="email" type="text" placeholder="Email Address" value="{{email}}" required>
+                        </div>
+                        <div class="inputs">
+                            <input id="password" name="password" type="password" placeholder="Password" value="{{password}}">
+                        </div>
+                        <div class="inputs">
+                            <input id="age" name="age" type="text" placeholder="Age" value="{{age}}">
+                        </div>
+                        <div class="inputs">
+                            <input id="city" name="city" type="text" placeholder="City" value="{{city}}">
+                        </div>
+                        <div class="inputs">
+                            <input id="homepage" name="homepage" type="text" placeholder="Homepage" value="{{homepage}}">
+                        </div>
+                        <a href="/petition"><button id="submit">Update</button><br></a>
+                    </form>
+                </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/signees.css">
+        <meta charset="utf-8">
+        <title>Signees</title>
+    </head>
+    <body>
+        <div id="background">
+            <div id="division">
+                <img id="monkey" src="http://www.pngall.com/wp-content/uploads/2016/06/Monkey-Free-Download-PNG.png">
+                <img id="tiger" src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Animals-PNG/Tiger_PNG_Clipart_Picture.png?m=1377122400">
+                <div id="menubar">
+                    <div id="edit">
+                        <a href="/edit">Edit profile</a>
+                    </div>
+                    <div id="logout">
+                        <a href="/logout">Log out</a>
+                    </div>
+                </div>
+                <div id="title">
+                    <div id="ban">BAN</div> <img src="https://stjamesfriends.files.wordpress.com/2014/07/banner-circus.png">
+                </div>
+            </div>
+            <div id="container">
+        {{#each signees}}
+            <div id="table">
+                {{#if url}}
+                    <p><a href="{{url}}">{{first_name}} {{last_name}}</a> ({{age}}, <a href="/petition/success/signers/{{city}}">{{city}})</a><p>
+                {{else}}
+                    <p>{{first_name}} {{last_name}}</a> ({{age}}, <a href="/petition/success/signers/{{city}}">{{city}}</a>)<p>
+                {{/if}}
+            </div>
+        {{/each}}
+    </div>
+    </body>
+</html>

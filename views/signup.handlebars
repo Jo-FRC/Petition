@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/signup.css">
+        <meta charset="utf-8">
+        <title>SignUp</title>
+    </head>
+    <body>
+        {{>upper}}
+        <h2>{{tryagain}}</h2>
+
+        <form method="post">
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+        <div id="containerLogin">
+            <div class="inputs">
+                <input id="firstname" name="firstname" type="text" placeholder="First Name" required>
+            </div>
+            <div class="inputs">
+                <input id="lastname" name="lastname" type="text" placeholder="Last Name" required>
+            </div>
+            <div class="inputs">
+                <input id="email" name="email" type="text" placeholder="Email Address" required>
+            </div>
+            <div class="inputs">
+                <input id="password" name="password" type="password" placeholder="Password" required>
+            </div>
+            <button id="submit">Sign up</button><br>
+            <h3 id="loglog">If you are already a user, please <a href="/login">log in</a></h3>
+        </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/login.css">
+        <meta charset="utf-8">
+        <div id="background">
+            <div id="division">
+                <img id="monkey" src="http://www.pngall.com/wp-content/uploads/2016/06/Monkey-Free-Download-PNG.png">
+                <img id="tiger" src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Animals-PNG/Tiger_PNG_Clipart_Picture.png?m=1377122400">
+                <div id="menubar">
+                    <div id="edit">
+                        <a href="/edit">Edit profile</a>
+                    </div>
+                    <div id="logout">
+                        <a href="/logout">Log out</a>
+                    </div>
+                </div>
+                <div id="title">
+                    <div id="ban">BAN</div> <img src="https://stjamesfriends.files.wordpress.com/2014/07/banner-circus.png">
+                </div>
+            </div>
+            <div id="container">
+                    <h2 id="please">Please log in.</h2>
+                    {{Wrong}}
+
+                    <form method="post">
+                        <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                        <div class="inputs">
+                            <input id="email" name="email" type="text" placeholder="Email Address" required>
+                        </div>
+                        <div class="inputs">
+                            <input id="password" name="password" type="password" placeholder="Password" required>
+                        </div>
+                        <button id="submit">Log in</button><br>
+                    </form>
+                </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,223 @@
+body {
+    background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Animated-lions-lion-circus-wallpaper-hd.jpg');
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#background {
+    background-color: rgba(240,248,255, .7);
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    /*position: relative;*/
+    /*left: 15%;*/
+    /*background-color: #6495ED;
+    background: rgba(240,248,255, .7);
+    border-left: solid black 1px;
+    border-right: solid black 1px;*/
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    /*height: 122%;*/
+    color: black;
+    text-align: center;
+}
+
+#tiger {
+    position: absolute;
+    left: 81%;
+    top: -10px;
+}
+
+#monkey {
+    left: 10%;
+    position: absolute;
+    width: 180px;
+    top: -70px;
+
+}
+
+#menubar {
+    height: 25px;
+    border-bottom: 1px solid black;
+    background: rgba(139,0,0, .7);
+
+}
+
+#title {
+    /*left: 39%;
+    position: relative;*/
+    margin: 6px auto;
+    text-align: center;
+    align-items: center;
+    top: -10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    font-weight:normal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 45px;
+    /*line-height: 62px;*/
+}
+
+#ban {
+    /*height: 62px;*/
+    display: inline;
+    position: relative;
+    top: -11px;
+}
+
+#division {
+    border-bottom: black solid 1px;
+    width: 100%;
+    height: 110px;
+    background: rgba(178,34,34, .8);
+}
+
+#description {
+    position: relative;
+    top: 15px;
+}
+
+img {
+    width: 230px;
+    left: 5.5%;
+    /*position: absolute;*/
+
+    margin: auto;
+    /*vertical-align: baseline;*/
+    /*padding-top: 20px;*/
+}
+
+#button2 {
+    margin-top: 13px;
+    font-size: 1.2em;
+    width: 30%;
+    height: 23px;
+    margin: auto;
+    text-align: center;
+}
+
+#submit {
+    font-size: 1.2em;
+    width: 120px;
+    height: 31px;
+    border-radius: 17px;
+    /*text-align: center;*/
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding-bottom: 8px;
+    background-color: rgba(0,0,0, .0);
+    color: black;
+    border: solid black 1px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    margin-top: 13px;
+    transition-duration: 0.4s;
+}
+
+#submit:hover {
+    /*opacity: 1.0;*/
+    background-color: rgba(0,0,0, .0); /* Green */
+    color: #228B22;
+    border: 1px #228B22 solid;
+}
+
+
+
+h1 {
+    font-weight:normal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    display: inline;
+}
+
+p {
+    margin-left: 9px;
+    font-size: 1.1em;
+}
+
+h2 {
+    /*left: 40%;
+    position: relative;*/
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight:normal;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+
+#canvas {
+    border: 1px dashed black;
+    width: 600px;
+    display:block;
+    margin: 8px auto;
+    background-color: #6495ED;
+    background: rgba(220,220,220, .8);
+}
+
+#logout {
+    position: relative;
+    left: 70%;
+    font-size: 1.2em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    border-left: 1px solid white;
+    padding-left: 6px;
+    height: 29px;
+    width:120px;
+    display: inline;
+    margin: 5px;
+}
+/*#logout:hover {
+    text-decoration-color: #228B22;
+    border-left: 1px #228B22 solid;
+}*/
+
+#edit {
+    position: relative;
+    left: 70%;
+    font-size: 1.2em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    border-left: 1px solid white;
+    padding-left: 6px;
+    height: 26px;
+    width:120px;
+    display: inline;
+    margin: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    padding: 0;
+}
+
+#yourSig {
+    margin: 7px;
+    background: rgba(0,255,127, .5);
+    width: 350px;
+    border: black solid 1px;
+
+}
+
+/*#logout {
+    float: right;
+    font-size: 1.2em;
+    width: 100px;
+    height: 27px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: rgba(0,0,0, .8);
+    color: white;
+    border: solid black 1px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 5px;
+}*/

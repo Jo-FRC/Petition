@@ -1,0 +1,219 @@
+body {
+    background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Animated-lions-lion-circus-wallpaper-hd.jpg');
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#background {
+    background-color: rgba(240,248,255, .7);
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    /*position: relative;*/
+    /*left: 15%;*/
+    /*background-color: #6495ED;
+    background: rgba(240,248,255, .7);
+    border-left: solid black 1px;
+    border-right: solid black 1px;*/
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    /*height: 122%;*/
+    color: black;
+    text-align: center;
+}
+
+#tiger {
+    position: absolute;
+    left: 81%;
+    top: -10px;
+}
+
+#monkey {
+    left: 10%;
+    position: absolute;
+    width: 180px;
+    top: -70px;
+}
+
+#menubar {
+    height: 25px;
+    border-bottom: 1px solid black;
+    background: rgba(139,0,0, .7);
+
+}
+
+#title {
+    /*left: 39%;
+    position: relative;*/
+    margin: 6px auto;
+    text-align: center;
+    align-items: center;
+    top: -10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    font-weight:normal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 45px;
+    /*line-height: 62px;*/
+}
+
+#ban {
+    /*height: 62px;*/
+    display: inline;
+    position: relative;
+    top: -11px;
+}
+
+#division {
+    border-bottom: black solid 1px;
+    width: 100%;
+    height: 110px;
+    background: rgba(178,34,34, .7);
+}
+
+#description {
+    position: relative;
+    top: 15px;
+}
+
+img {
+    width: 230px;
+    left: 5.5%;
+    /*position: absolute;*/
+
+    margin: auto;
+    /*vertical-align: baseline;*/
+    /*padding-top: 20px;*/
+}
+
+
+input {
+    margin:  auto;
+    width: 160px;
+    height: 20px;
+    font-size: 1.2em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background: rgba(220,220,220, .8);
+    border: solid black 1px;
+    padding: 10px 5px 10px 40px;
+
+   border-radius: 4px;
+   transition: 0.2s ease-out;
+   color: darken(#EDEDED , 30%);
+   margin:15px;
+}
+
+#button2 {
+    margin-top: 13px;
+    font-size: 1.2em;
+    width: 30%;
+    height: 23px;
+    margin: auto;
+    text-align: center;
+}
+
+#submit {
+    font-size: 1.2em;
+    width: 120px;
+    height: 31px;
+    border-radius: 17px;
+    /*text-align: center;*/
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding-bottom: 8px;
+    background-color: rgba(0,0,0, .0);
+    color: black;
+    border: solid black 1px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    margin-top: 13px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+}
+
+#submit:hover {
+    /*opacity: 1.0;*/
+    background-color: rgba(0,0,0, .0); /* Green */
+    color: #228B22;
+    border: 1px #228B22 solid;
+}
+
+#button1 {
+    margin: 8px;
+    font-size: 1em;
+    width: 30%;
+    height: 23px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    font-weight:normal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    display: inline;
+}
+
+p {
+    margin-left: 9px;
+    font-size: 1.1em;
+}
+
+h2 {
+    /*left: 40%;
+    position: relative;*/
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight:normal;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+#containerLogin {
+    /*left: 3%;
+    position: relative;*/
+    margin: auto;
+    text-align: center;
+}
+
+.inputs {
+    margin: auto;
+    text-align: center;
+}
+
+#loglog {
+    /*margin-top: 15px;*/
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight:normal;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+#logout {
+    display: none;
+}
+
+#edit {
+    display: none;
+}
+
+#please {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

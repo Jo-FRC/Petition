@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/profiles.css">
+        <meta charset="utf-8">
+        <title>Personal page</title>
+    </head>
+    <body>
+        <div id="background">
+            <div id="division">
+                <img id="monkey" src="http://www.pngall.com/wp-content/uploads/2016/06/Monkey-Free-Download-PNG.png">
+                <img id="tiger" src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Animals-PNG/Tiger_PNG_Clipart_Picture.png?m=1377122400">
+                <div id="menubar">
+                    <div id="edit">
+                        <a href="/edit">Edit profile</a>
+                    </div>
+                    <div id="logout">
+                        <a href="/logout">Log out</a>
+                    </div>
+                </div>
+                <div id="title">
+                    <div id="ban">BAN</div> <img src="https://stjamesfriends.files.wordpress.com/2014/07/banner-circus.png">
+                </div>
+            </div>
+        <div id="container">
+                <div id="containerLogin">
+                    <h2 id="please">Pease tell us something about you</h2>
+
+                    <form method="post">
+                        <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                        <div class="inputs">
+                            <input id="age" name="age" type="text" placeholder="Age">
+                        </div>
+                        <div class="inputs">
+                            <input id="city" name="city" type="text" placeholder="City">
+                        </div>
+                        <div class="inputs">
+                            <input id="homepage" name="homepage" type="text" placeholder="Homepage - url">
+                        </div>
+                        <button id="submit">Submit</button><br>
+                        <p>Please notice that this fields are not required.</p>
+                    </form>
+                </div>
+        </div>
+    </body>
+</html>
